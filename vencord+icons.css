@@ -216,4 +216,12 @@
     }
 }
 
+/*i'm new here, say hi!*/
+[class*=newMemberBadge]:before {
+  content: url("https://github.com/Lelensz/pixels/blob/main/New%20Small-1.webp?raw=true");
+}
+.iconContainer_c00127 {
+  content: url("https://github.com/Lelensz/pixels/blob/main/New%20Small-2.webp?raw=true");
+  display: inline-block;
+}
 
