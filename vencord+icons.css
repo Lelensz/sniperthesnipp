@@ -187,6 +187,42 @@
     fill: #f4b8e4;
 }
 
+/* Inbox */
+[role^=img] path[d^="M5 2a3 3 0 0 0-3"] {
+    opacity: 0.2;
+}
+/* Help*/
+[role^=img] path[d^="M12 23a11"] {
+    opacity: 0.2;
+}
+/* Devtools 1 */
+[role^=img] path[d^="M2 20.59V19.4a1"] {
+    opacity: 0.2;
+}
+/* Devtools 2 */
+[role^=img] path[d^="M8.23 10.23c.2.2.51.2.7"] {
+    opacity: 0.2;
+}
+
+/* CHANGING ICONS */
+/* Equicord toolbox Logo */
+.vc-toolbox-btn svg path {
+  display: none;
+}
+
+.vc-toolbox-btn::before {
+  content: "";
+  position: absolute;
+  top: -20;
+  margin-left: -1px;
+  width: 75%;
+  height: 75%;
+  background-image: url("https://equicord.org/assets/favicon.png") !important;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+}
+
 
 /*i'm new here, say hi!*/
 [class*=newMemberBadge]:before {
