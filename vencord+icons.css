@@ -81,27 +81,6 @@
 }
 
 
-/* CHANGING ICONS */
-/* Equicord toolbox Logo */
-.vc-toolbox-btn svg path {
-  display: none;
-}
-
-.vc-toolbox-btn::before {
-  content: "";
-  position: absolute;
-  top: -20;
-  margin-left: -1px;
-  width: 75%;
-  height: 75%;
-  background-image: url("https://equicord.org/assets/favicon.png") !important;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.7;
-}
-
-
-
 /* Nested Discord Icons */
 [data-list-item-id] {
     &[data-list-item-id="guildsnav___home"] {
