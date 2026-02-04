@@ -192,7 +192,7 @@
     opacity: 0.2;
 }
 /* Help*/
-[role^=img] path[d^="M12 23a11"] {
+[role^=img] path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-"] {
     opacity: 0.2;
 }
 /* Devtools 1 */
