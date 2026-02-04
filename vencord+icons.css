@@ -1,4 +1,3 @@
-
 /* Window Control Fancy Button By Moonself + squeezbtw */
 /* new windows button & hover */
 .winButton_c38106 {
@@ -39,7 +38,7 @@
   top: 50% !important;
   left: 40%;
   background-color: #f38ba8;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18 6L6 18M6 6l12 12'/%3E%3C/svg%3E") no-repeat center;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 16 16'%3E%3Cpath fill='%23babbf1' d='M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8s8-3.6 8-8s-3.6-8-8-8m4.2 10.8l-1.4 1.4L8 9.4l-2.8 2.8l-1.4-1.4L6.6 8L3.8 5.2l1.4-1.4L8 6.6l2.8-2.8l1.4 1.4L9.4 8z'/%3E%3C/svg%3E") no-repeat center;
   mask-size: 100%;
   -webkit-mask-size: 100%;
   will-change: transform !important; /* Optimization for animation */
@@ -55,7 +54,7 @@
   top: 50% !important;
   left: 40%;
   background-color: #f9e2af;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 12 12'%3E%3Cpath fill='%23000' stroke='%23000' stroke-linecap='round' stroke-width='2' d='M3 6h6'/%3E%3C/svg%3E") no-repeat center;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 16 16'%3E%3Cpath fill='%23babbf1' d='M0 8c0 4.4 3.6 8 8 8s8-3.6 8-8s-3.6-8-8-8s-8 3.6-8 8m11.6-2.8L13 6.6l-5 5l-5-5l1.4-1.4L8 8.8z'/%3E%3C/svg%3E") no-repeat center;
   mask-size: 100%;
   -webkit-mask-size: 100%;
   will-change: transform !important; /* Optimization for animation */
@@ -70,7 +69,7 @@
   top: 50% !important;
   left: 40%;
   background-color: #a6e3a1;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M11.357 4h1.286c1.084 0 1.958 0 2.666.058c.729.06 1.369.185 1.961.487a5 5 0 0 1 2.185 2.185c.302.592.428 1.233.487 1.961C20 9.4 20 10.273 20 11.357v1.286c0 1.084 0 1.958-.058 2.666c-.06.729-.185 1.369-.487 1.961a5 5 0 0 1-2.185 2.185c-.592.302-1.232.428-1.961.487C14.6 20 13.727 20 12.643 20h-1.286c-1.084 0-1.958 0-2.666-.058c-.728-.06-1.369-.185-1.961-.487a5 5 0 0 1-2.185-2.185c-.302-.592-.428-1.232-.487-1.961C4 14.6 4 13.727 4 12.643v-1.286c0-1.084 0-1.958.058-2.666c.06-.728.185-1.369.487-1.961A5 5 0 0 1 6.73 4.545c.592-.302 1.233-.428 1.961-.487C9.4 4 10.273 4 11.357 4M8.854 6.051c-.605.05-.953.142-1.216.276a3 3 0 0 0-1.311 1.311c-.134.263-.226.611-.276 1.216C6.001 9.471 6 10.264 6 11.4v1.2c0 1.137 0 1.929.051 2.546c.05.605.142.953.276 1.216a3 3 0 0 0 1.311 1.311c.263.134.611.226 1.216.276c.617.05 1.41.051 2.546.051h1.2c1.137 0 1.929 0 2.546-.051c.605-.05.953-.142 1.216-.276a3 3 0 0 0 1.311-1.311c.134-.263.226-.611.276-1.216c.05-.617.051-1.41.051-2.546v-1.2c0-1.137 0-1.929-.051-2.546c-.05-.605-.142-.953-.276-1.216a3 3 0 0 0-1.311-1.311c-.263-.134-.611-.226-1.216-.276C14.529 6.001 13.736 6 12.6 6h-1.2c-1.137 0-1.929 0-2.546.051'/%3E%3C/svg%3E") no-repeat center;
+  mask:  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 16 16'%3E%3Cpath fill='%23babbf1' d='M16 8c0-4.4-3.6-8-8-8S0 3.6 0 8s3.6 8 8 8s8-3.6 8-8M4.4 10.8L3 9.4l5-5l5 5l-1.4 1.4L8 7.2z'/%3E%3C/svg%3E") no-repeat center;
   mask-size: 100%;
   -webkit-mask-size: 100%;
   will-change: transform !important; /* Optimization for animation */
@@ -79,6 +78,7 @@
     filter: brightness(1.2) !important;
     transform: translate(-50%, -50%) rotate(180deg) !important;
 }
+
 
 
 /* Nested Discord Icons */
