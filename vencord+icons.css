@@ -167,11 +167,6 @@
 }
 
 
-/* Icon Member Recolor */
-[class^=icon] path[d^="M14.5 8a3 3 0 1 0-2."] {
-    fill: var(--text-5) !important;
-}
-
 
 /* Status ICON */
 /* joystick */
@@ -187,10 +182,7 @@
     fill: #f4b8e4;
 }
 
-/* Inbox */
-[role^=img] path[d^="M5 2a3 3 0 0 0-3"] {
-    fill: #f4b8e4;
-}
+
 /* Help*/
 [role^=img] path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-"] {
     fill: #8caaee;
@@ -244,4 +236,5 @@ path[d="M8.23 10.23c.2.2.51.2.7 0l1.3-1.3a.5.5 0 0 0 0-.7L6.5 4.5l.3-.3a1 1 0 0 
 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5ZM4 5.5C4 4.67 4.67 4 5.5 4h13c.83 0 1.5.67 1.5 1.5v6c0 .83-.67 1.5-1.5 1.5h-2.65c-.5 0-.85.5-.85 1a3 3 0 1 1-6 0c0-.5-.35-1-.85-1H5.5A1.5 1.5 0 0 1 4 11.5v-6Z"] {
     d: path("M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M9.5 4a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0M9 6.5H5v2h2v2H5v2h6v-2H9z");
     transform: translate(3px, 2px) scale(1.26);
+    fill: #f4b8e4;
 }
