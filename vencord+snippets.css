@@ -110,8 +110,10 @@ padding-bottom: 0px !important;
 }
 
 /* Server Tooltip */
-[class*=tooltip] { 
-    max-width: unset !important; 
+/* credit obsidianninja11 */
+.tooltip__4e35b,
+.tooltip__4e35b .listItemTooltipContent__91816 { 
+  max-width: unset !important; 
 }
 
 
