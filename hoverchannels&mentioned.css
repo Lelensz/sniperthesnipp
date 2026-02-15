@@ -9,9 +9,9 @@
 --mention: linear-gradient(to right, color-mix(in hsl, var(--blue-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
 
 /* base colors */
---blue-1: hsl(222deg, 74%, 74%);
---blue-2: hsl(222deg, 74%, 74%);
---mention-background: color-mix(in hsl, var(--accent-2), transparent 0%) !important;
+--blue-1: hsl(231deg, 97%, 72%);
+--blue-2: hsl(231deg, 97%, 72%);
+--mention-background: color-mix(in hsl, var(--accent-2), transparent 0%);
 --mention-foreground: var(--accent-1) !important;
 --message-mentioned-background-default: var(--mention) !important;
 --message-mentioned-background-hover: var(--mention-hover) !important;
