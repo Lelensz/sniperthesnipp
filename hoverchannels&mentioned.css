@@ -1,0 +1,100 @@
+/* Hover Channel Animation */
+/* rip from midnight */
+/* credit to midnight */
+:root {
+    --list-item-transition: 0.3s ease; /* transition for list items */
+    --dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
+    --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
+    --accent-2: var(--blue-2); /* small accent elements */
+    --mention: linear-gradient(to right, color-mix(in hsl, var(--blue-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
+}
+
+/* base colors */
+--blue-1: hsl(222deg, 74%, 74%);
+--blue-2: hsl(222deg, 74%, 74%);
+--mention-background: color-mix(in hsl, var(--accent-2), transparent 0%) !important;
+--mention-foreground: var(--accent-1) !important;
+--message-mentioned-background-default: var(--mention) !important;
+--message-mentioned-background-hover: var(--mention-hover) !important;
+}
+
+/* Mention Bar */
+.mentioned__5126c:before /* mention message left edge */ {
+    background-color: var(--accent-2) !important;
+}
+
+/* improve highlight message left edge */
+.message__5126c.mentioned__5126c::before,
+.replying__5126c::before,
+.ephemeral__5126c::before {
+    width: var(--divider-thickness);
+    border-radius: var(--divider-thickness);
+    height: calc(100% - 2 * var(--radius-sm));
+    top: var(--radius-sm);
+    left: calc(var(--divider-thickness) / -2 + 1px);
+    left: calc(var(--radius-sm) / 2);
+}
+.message__5126c {
+    border-radius: var(--radius-md);
+    margin-left: 4px;
+}
+
+/* list hover animations */
+.wrapper__2ea32 .link__2ea32 /* channels */,
+    .container__91a9d /* members */,
+    .channel__972a0 /* dms */,
+    .side_aa8da2 .item_aa8da2 /* settings */ {
+    transition: margin-left var(--list-item-transition);
+    will-change: margin-left;
+}
+.wrapper__2ea32:hover .link__2ea32,
+.side_aa8da2 .item_aa8da2:hover {
+    margin-left: 10px;
+}
+
+/* MSG hover anims By Computer Cat & Benzeel*/
+.messageListItem__5126c {
+  > .cozyMessage__5126c { 
+    transition: transform 0.3s 0s; /* [duration] | [delay] */
+    z-index: 1; /* fixes popover rendering under chat dividers */
+  }
+  &:has(> .cozyMessage__5126c:hover) { 
+    > .cozyMessage__5126c { 
+      transform: translateX(5px); /*changes how far the message moves when hovered*/
+    }
+    /* popover animation */
+    .buttonContainer_c19a55 {
+      transition: transform 0.15s 0.1s ease; /* [duration] | [delay] */
+      transform: translateX(9px);
+    }
+  }
+  &:has(> .cozyMessage__5126c:hover)::before {
+      display: block;
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: #ffffff0c;
+  }
+}
+.buttonContainer_c19a55 {
+    transform: translateX(450px); /*changes how far right the popover starts in the animation */
+}
+
+/* list hover channel dot */
+.unread__2ea32 {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    transition: var(--list-item-transition);
+    will-change: margin-left;
+}
+.wrapper__2ea32:hover .unread__2ea32 {
+    margin-left: 4px;
+}
+.typeThread__2ea32 .unread__2ea32 {
+    margin-left: -8px;
+}
+.wrapper__2ea32.typeThread__2ea32:hover .unread__2ea32 {
+    margin-left: 0px;
+}
