@@ -208,62 +208,94 @@ padding-bottom: 0px !important;
 }
 
 
-/* RAINBOW THREAD */
-.content_d125d2 > li.container__5b40b > ul[role="group"] {
-> .spineBorder__5b40b {
+/* rainbow Thread */
+ul[class^=content_] > li[class^=container_] > ul[role=group] {
+  
+  > div[class^=spineBorder_] {
     --step: calc(var(--channels-name-line-height) + 10px);
-    background: var(--thread-muted, repeating-linear-gradient(
-      #824e62 calc(var(--step) \* 0),
-      #824e62 calc(var(--step) \* 1),
-      #866251 calc(var(--step) \* 1),
-      #866251 calc(var(--step) \* 2),
-      #857a65 calc(var(--step) \* 2),
-      #857a65 calc(var(--step) \* 3),
-      #5c7a5e calc(var(--step) \* 3),
-      #5c7a5e calc(var(--step) \* 4),
-      #4d638b calc(var(--step) \* 4),
-      #4d638b calc(var(--step) \* 5),
-      #6e5c89 calc(var(--step) \* 5),
-      #6e5c89 calc(var(--step) \* 6))
-    )
+    background: var(--thread-spine, repeating-linear-gradient(
+      #d77891 calc(var(--step) * 0),
+      #d77891 calc(var(--step) * 1),
+      #eda27a calc(var(--step) * 1),
+      #eda27a calc(var(--step) * 2),
+      #deb783 calc(var(--step) * 2),
+      #deb783 calc(var(--step) * 3),
+      #8ec08a calc(var(--step) * 3),
+      #8ec08a calc(var(--step) * 4),
+      #7da3ef calc(var(--step) * 4),
+      #7da3ef calc(var(--step) * 5),
+      #b28dec calc(var(--step) * 5),
+      #b28dec calc(var(--step) * 6)
+    ));
   }
-> li {
-    --interactive-hover: var(--thread-core, #f38ba8);
-    --interactive-active: var(--thread-core, #f38ba8);
+
+  > li:nth-of-type(6n + 1) {
+    --channels-default: var(--thread-default, rgba(215, 120, 145, 0.7));
+    --interactive-text-hover: var(--thread-default, #d77891);
+    --interactive-text-active: var(--thread-default, #d77891);
+    --text-strong: var(--thread-default, #d77891);
+    --text-default: var(--thread-core, #d77891);
+    --text-muted: var(--thread-muted, #d77891);
+    --spine-default: var(--thread-spine, #d77891);
   }
-> li:nth-of-type(6n + 1) {
-    --channels-default: var(--thread-default, rgba(243, 139, 168, 0.7));
-    --text-primary: var(--thread-core, #f38ba8);
-    --interactive-muted: var(--thread-muted, #824e62);
+
+  > li:nth-of-type(6n + 2) {
+    --channels-default: var(--thread-default, rgba(237, 162, 122, 0.7));
+    --interactive-text-hover: var(--thread-default, #eda27a);
+    --interactive-text-active: var(--thread-default, #eda27a);
+    --text-strong: var(--thread-default, #eda27a);
+    --text-default: var(--thread-core, #eda27a);
+    --text-muted: var(--thread-muted, #eda27a);
+    --spine-default: var(--thread-spine, #eda27a);
   }
-> li:nth-of-type(6n + 2) {
-    --channels-default: var(--thread-default, rgba(250, 179, 135, 0.7));
-    --text-primary: var(--thread-core, #fab387);
-    --interactive-muted: var(--thread-muted, #866251);
+
+  > li:nth-of-type(6n + 3) {
+    --channels-default: var(--thread-default, rgba(222, 183, 131, 0.7));
+    --interactive-text-hover: var(--thread-default, #deb783);
+    --interactive-text-active: var(--thread-default, #deb783);
+    --text-strong: var(--thread-default, #deb783);
+    --text-default: var(--thread-core, #deb783);
+    --text-muted: var(--thread-muted, #deb783);
+    --spine-default: var(--thread-spine, #deb783);
   }
-> li:nth-of-type(6n + 3) {
-    --channels-default: var(--thread-default, rgba(249, 226, 175, 0.7));
-    --text-primary: var(--thread-core, #f9e2af);
-    --interactive-muted: var(--thread-muted, #857a65);
+
+  > li:nth-of-type(6n + 4) {
+    --channels-default: var(--thread-default, rgba(142, 192, 138, 0.7));
+    --interactive-text-hover: var(--thread-default, #8ec08a);
+    --interactive-text-active: var(--thread-default, #8ec08a);
+    --text-strong: var(--thread-default, #8ec08a);
+    --text-default: var(--thread-core, #8ec08a);
+    --text-muted: var(--thread-muted, #8ec08a);
+    --spine-default: var(--thread-spine, #8ec08a);
   }
-> li:nth-of-type(6n + 4) {
-    --channels-default: var(--thread-default, rgba(166, 227, 161, 0.7));
-    --text-primary: var(--thread-core, #a6e3a1);
-    --interactive-muted: var(--thread-muted, #5c7a5e);
+
+  > li:nth-of-type(6n + 5) {
+    --channels-default: var(--thread-default, rgba(125, 163, 239, 0.7));
+    --interactive-text-hover: var(--thread-default, #7da3ef);
+    --interactive-text-active: var(--thread-default, #7da3ef);
+    --text-strong: var(--thread-default, #7da3ef);
+    --text-default: var(--thread-core, #7da3ef);
+    --text-muted: var(--thread-muted, #7da3ef);
+    --spine-default: var(--thread-spine, #7da3ef);
   }
-> li:nth-of-type(6n + 5) {
-    --channels-default: var(--thread-default, rgba(137, 180, 250, 0.7));
-    --text-primary: var(--thread-core, #89b4fa);
-    --interactive-muted: var(--thread-muted, #4d638b);
+
+  > li:nth-of-type(6n + 6) {
+    --channels-default: var(--thread-default, rgba(178, 141, 236, 0.7));
+    --interactive-text-hover: var(--thread-default, #b28dec);
+    --interactive-text-active: var(--thread-default, #b28dec);
+    --text-strong: var(--thread-default, #b28dec);
+    --text-default: var(--thread-core, #b28dec);
+    --text-muted: var(--thread-muted, #b28dec);
+    --spine-default: var(--thread-spine, #b28dec);
   }
-> li:nth-of-type(6n + 6) {
-    --channels-default: var(--thread-default, rgba(203, 166, 247, 0.7));
-    --text-primary: var(--thread-core, #cba6f7);
-    --interactive-muted: var(--thread-muted, #6e5c89);
-  }
+
   li:only-of-type {
-    --channels-default: var(--thread-default, rgba(245, 194, 231, 0.7));
-    --text-primary: var(--thread-core, #f5c2e7);
-    --interactive-muted: var(--thread-muted, #836a81);
+    --channels-default: var(--thread-default, rgba(215, 120, 145, 0.7));
+    --interactive-text-hover: var(--thread-default, #d77891);
+    --interactive-text-active: var(--thread-default, #d77891);
+    --text-strong: var(--thread-default, #d77891);
+    --text-default: var(--thread-core, #d77891);
+    --text-muted: var(--thread-muted, #d77891);
+    --spine-default: var(--thread-spine, #d77891);
   }
 }
