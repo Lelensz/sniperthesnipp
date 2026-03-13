@@ -252,10 +252,6 @@ nav.guilds__5e434 {
     fill: var(--icon-muted) !important;
 }
 
-/* hide discord server title */
-.title_edbb22 {
-    display: none;
-}
 
 /* fix server boost tap */
 [class^=powerupContainer] {
@@ -263,10 +259,7 @@ nav.guilds__5e434 {
     > :not([class^=parentContainer]) { display: none; }
 }
 
-/* Fix Gap Top Bar Inbox-Help */
-.leading_c38106, .trailing_c38106 {
-    gap: 1px !important;;
-}
+
 
 /* Remove annoying gaps between buttons (vc, text inputs, Emojis) */
 div[class^="buttons"] {
