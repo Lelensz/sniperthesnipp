@@ -84,7 +84,7 @@
 /* Nested Discord Icons */
 [data-list-item-id] {
     &[data-list-item-id="guildsnav___home"] {
-        content: url(https://i.ibb.co/k2Chrfg4/catppuccin.webp);
+        content: url(https://i.ibb.co/FqHV4W3Z/icons8-black-desert-96.png);
     }
 
     &[data-list-item-id="guildsnav___undefined"],
