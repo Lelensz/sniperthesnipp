@@ -1,4 +1,4 @@
-* Self Highlight colors, use ThemeAttributes to access */
+/* Self Highlight colors, use ThemeAttributes to access */
 [data-is-self="true"] .message__5126c {
   --cb-bubble-background: var(--cb-bubble-background-self);
   --cb-bubble-background-hover: var(--cb-bubble-background-hover-self);
@@ -67,22 +67,6 @@
   transform: translateX(-20px);
 }
 
-.messageListItem__5126c:not([data-is-self="true"]):nth-last-child(2) .message__5126c:not(:has(.isSending_c19a55)),
-.messageListItem__5126c:nth-last-child(2) .message__5126c:has(.isSending_c19a55) {
-  animation: var(--chatbubbleanim);
-}
-
-@keyframes chatBubbleAnim {
-  from {
-    transform: var(--chatBubblePos);
-    opacity: 0;
-  }
-
-  to {
-    transform: none;
-    opacity: 1;
-  }
-}
 
 @property --d1 {
   syntax: '<percentage>';
