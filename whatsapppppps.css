@@ -1,4 +1,4 @@
-/* Self Highlight colors, use ThemeAttributes to access */
+* Self Highlight colors, use ThemeAttributes to access */
 [data-is-self="true"] .message__5126c {
   --cb-bubble-background: var(--cb-bubble-background-self);
   --cb-bubble-background-hover: var(--cb-bubble-background-hover-self);
@@ -25,7 +25,7 @@
   background: var(--cb-bubble-background);
   margin-left: 0.5rem;
   margin-top: 0.125rem;
-  margin-bottom: 0.125rem;
+  margin-bottom: 0.3rem;
   margin-right: 65px;
   width: fit-content;
   max-width: calc(100% - 9.7rem);
