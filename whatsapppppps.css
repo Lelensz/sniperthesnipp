@@ -230,11 +230,6 @@
   margin-bottom: unset;
 }
 
-.reactionBtn_f8896c {
-  /* Fix add reaction button bottom margin */
-  margin-bottom: unset;
-}
-
 /*#endregion Reactions*/
 /*#region Emoji*/
 .emojiContainer__75abc {
@@ -295,7 +290,7 @@
 
 .reactions_f8896c {
   /* Fix reactions position */
-  width: 100%;
+  width: 10%;
 }
 
 /*#endregion Embeds*/
