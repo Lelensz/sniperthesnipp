@@ -120,14 +120,16 @@
 /*#region Replied preview*/
 .repliedMessage_c19a55 {
   padding: 2px;
-  border-left: 2px solid;
-  border-radius: 5px !important;
+  border-left: 3px solid;
+  border-radius: 3px;
   padding-left: 8px;
   background: var(--bg-4);
 }
 
 .mentioned__5126c .repliedMessage_c19a55 {
-  background: var(--hover);
+    border-radius: 3px;
+    background: var(--bg-4);
+    border-color: var(--accent-2);
 }
 
 .repliedMessage_c19a55::before {
