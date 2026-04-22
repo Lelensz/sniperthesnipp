@@ -141,7 +141,7 @@
 }
 
 .repliedMessage_c19a55>.repliedTextPreview_c19a55 {
-  width: calc(100% - 24px);
+  width: calc(100% , 10px);
   /* Preserve space for image thumbnail icon */
 }
 
