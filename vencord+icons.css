@@ -109,56 +109,6 @@
 }
 
 
-/* Shared Styles for all Sidebar Icons */
-[href="/channels/@me"],
-[href="/store"],
-[href="/message-requests"],
-[href="/shop"],
-[href="/quest-home"] {
-    
-    .avatar__20a53 {
-        /* Hide the original SVG */
-        svg {
-            display: none !important;
-        }
-
-        /* Base setup for the new custom icon */
-        &::before {
-            content: "";
-            display: block;
-            width: 25px;
-            height: 25px;
-            background-repeat: no-repeat;
-            background-size: contain;
-            transition: transform 0.3s ease, opacity 0.3s ease;
-        }
-
-        /* Hover effect applied to all */
-        &:hover::before {
-            transform: scale(1.2);
-            opacity: 0.8;
-        }
-    }
-
-    /* Unique Icon URLs */
-    &[href="/channels/@me"] .avatar__20a53::before {
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke-linejoin='round' stroke-width='4'%3E%3Cpath fill='%23babbf1' stroke='%23babbf1' stroke-linecap='square' d='M60 70H20a4 4 0 0 1-4-4a15.87 15.87 0 0 1 10.3-14.86l1.23-.462a35.53 35.53 0 0 1 24.94 0l1.23.462A15.87 15.87 0 0 1 64 66a4 4 0 0 1-4 4Z'/%3E%3Cpath fill='%23626880' stroke='%23626880' stroke-linecap='round' d='M33.902 38.867a13.347 13.347 0 0 0 19.15-9.08l.223-1.044a14.2 14.2 0 0 0-2.51-11.466l-.36-.48a12.992 12.992 0 0 0-20.81 0l-.36.48a14.2 14.2 0 0 0-2.51 11.465l.223 1.046a13.35 13.35 0 0 0 6.953 9.08'/%3E%3C/g%3E%3C/svg%3E");
-    }
-
-    &[href="/store"] .avatar__20a53::before {
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 80 80'%3E%3Cg fill='none' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cpath fill='%23626880' d='m21.3 27.083l7.853 10.967a.058.058 0 0 0 .094 0L47.901 12l11.356 15.86A25.37 25.37 0 0 1 64 42.63V44c0 13.255-10.745 24-24 24S16 57.255 16 44v-1.37a25.37 25.37 0 0 1 4.743-14.77z'/%3E%3Cpath fill='%23babbf1' d='m23.629 41.109l5.524 7.714a.058.058 0 0 0 .094 0L46 25.428l7.41 9.504a16.03 16.03 0 0 1 3.39 9.86c0 8.855-7.179 16.033-16.034 16.033h-1.532c-8.855 0-16.034-7.178-16.034-16.034c0-1.248.146-2.483.428-3.682'/%3E%3C/g%3E%3C/svg%3E");
-    }
-
-    &[href="/message-requests"] .avatar__20a53::before {
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 80 80'%3E%3Cg fill='none' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cpath fill='%23626880' d='M68 33.82v-2.16a4 4 0 0 0-1.397-3.037l-21.397-18.34a8 8 0 0 0-10.412 0l-21.397 18.34A4 4 0 0 0 12 31.66v4.321a4 4 0 0 0 1.397 3.037l21.397 18.34a8 8 0 0 0 10.412 0l21.397-18.34A4 4 0 0 0 68 35.98zM12 40v-3.838a4 4 0 0 0 1.397 3.037l21.397 18.34a8 8 0 0 0 10.412 0L66.603 39.2A4 4 0 0 0 68 36.162V68a4 4 0 0 1-4 4H16a4 4 0 0 1-4-4z'/%3E%3Cpath fill='%23babbf1' d='M68 33.985v2.175a4 4 0 0 1-1.397 3.037l-21.397 18.34a8 8 0 0 1-10.412 0l-21.397-18.34A4 4 0 0 1 12 36.16v-4.32a4 4 0 0 1 1.397-3.037l21.397-18.34a8 8 0 0 1 10.412 0l21.397 18.34A4 4 0 0 1 68 31.84z'/%3E%3C/g%3E%3C/svg%3E");
-    }
-
-    &[href="/shop"] .avatar__20a53::before {
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke-linecap='round' stroke-linejoin='round' stroke-width='4'%3E%3Cpath fill='%23babbf1' stroke='%23babbf1' d='M17.713 31.916A2.25 2.25 0 0 1 19.938 30h40.124a2.25 2.25 0 0 1 2.225 1.916l5.325 35.5A2.25 2.25 0 0 1 65.387 70H14.613a2.25 2.25 0 0 1-2.225-2.584z'/%3E%3Cpath stroke='%23626880' d='M52 38V22c0-6.627-5.373-12-12-12v0c-6.627 0-12 5.373-12 12v16'/%3E%3C/g%3E%3C/svg%3E");
-    }
-}
-
-
 /* hide everything except the Friends tab in the DMs area */
 [href="/quest-home"] {
   display: none !important;
